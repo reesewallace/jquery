@@ -9,6 +9,25 @@ body {margin-left: auto; margin-right: auto; width: 80%; min-width: 900px;}
 .btn-green {background-color: #4caf50;}
 .btn-blue {background-color: navy;}
 
-.red {color: crimson;}
-.green {color: #4caf50;}
-.blue {color: navy;}
+.red {color: crimson; font-size: 1em; font-family: cursive;}
+.green {color: #4caf50; font-size:2em; font-family: sans-serif;}
+.blue {color: navy; font-size:3em; font-family:serif;}
+
+.container {
+	width: 100%;
+}
+
+.container h1 {
+	text-align: center;
+}
+
+#runaway-container {
+	position: absolute;
+	width: 150px;
+	margin-left: 0;
+	margin-top: 100px;
+}
+
+#runaway {
+	width: 150px;
+}

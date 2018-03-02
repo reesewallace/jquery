@@ -1,4 +1,14 @@
 
-body {margin-left: auto; margin-right: auto; width: 80%;}
+body {margin-left: auto; margin-right: auto; width: 80%; min-width: 900px;}
 .test {text-align: center;}
+
 #result {padding-top: 20px;}
+
+.btn {width: 250px; color: #fff; font-weight: 800; margin-top: 10px;}
+.btn-red {background-color: crimson;}
+.btn-green {background-color: #4caf50;}
+.btn-blue {background-color: navy;}
+
+.red {color: crimson;}
+.green {color: #4caf50;}
+.blue {color: navy;}

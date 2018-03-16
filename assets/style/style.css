@@ -1,4 +1,4 @@
-
+/*
 body {margin-left: auto; margin-right: auto; width: 80%; min-width: 900px;}
 .test {text-align: center;}
 
@@ -31,3 +31,30 @@ body {margin-left: auto; margin-right: auto; width: 80%; min-width: 900px;}
 #runaway {
 	width: 150px;
 }
+*/
+
+/*
+#target-div {
+width: 200px;
+height: 200px;
+margin: auto;
+margin-top: 20%;
+
+}
+
+.blue {background-color: #6495ED;}
+
+.green {
+background-color: #4caf50;
+}
+
+#label { margin-top: 10px; margin-bottom: 0;}
+*/
+
+.container-fluid {margin-top: 10px;}
+
+.piecatalogue {margin-top: 10px;}
+
+.pizza {width: 200px; margin-left: 10px; margin-top: 10px;}
+
+.bestpie {padding: 3px; background-color:#4caf50; width:197px;}

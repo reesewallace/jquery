@@ -1,5 +1,5 @@
 
-/*--
+/*-- Coin Flip
 function flip() {
 var random = Math.random();
 
@@ -40,6 +40,7 @@ console.log($('#input').val());
 
 });
 */
+/*-- Ipsum machine
 $(document).ready(function(){
   $('#red').click(function(){
     $('#ipsum').append("<span class='red'>Bacon ipsum dolor amet short ribs filet mignon tenderloin kielbasa brisket pork landjaeger tail prosciutto sirloin salami kevin pork belly meatball. Tri-tip rump corned beef, burgdoggen ribeye prosciutto beef bresaola tenderloin bacon brisket meatloaf drumstick. Flank bacon sirloin jowl, sausage t-bone hamburger. Pastrami meatloaf capicola beef picanha chuck.</span>")
@@ -74,3 +75,32 @@ $(document).ready(function(){
   })
 
 });
+*/
+/*-- Color changing box
+$('#target-div').click(function(){
+  $(this).removeClass("blue").addClass("green");
+
+})
+*/
+/*--
+$('#btn').click(function(){
+var value = $('#special').val();
+console.log(value);
+})
+*/
+$('#gopiego').click(function(){
+var value = $('#number').val();
+$('#piecatalogue').empty();
+$('#newbtn').empty();
+for (i = 0; i<value; i++){
+  $('#piecatalogue').append('<img src="assets/images/whitepizza.jpg" alt="pizza" class="pizza" id="'+i+'">');
+}
+$('#newbtn').append('<label>Which one did you want?<input type="text" id="wantinput" class="wantinput"></input></label> <button id="wantbtn" class="btn-danger"><strong>Submit</strong></button>')
+
+})
+
+
+$('#wantbtn').click(function(){
+  var want = $('wantinput').val();
+  $('#' + want).removeClass("pizza").addClass("bestpie")
+})
